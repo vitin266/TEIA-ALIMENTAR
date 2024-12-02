@@ -82,7 +82,7 @@ function drawGame() {
     moveEntity(predator);
 
     if (isColliding(player, predator)) {
-      alert("Game Over! Final Score: " + score);
+      alert("Fim de jogo! Pontuação final: " + score);
       return;
     }
   }
@@ -95,7 +95,7 @@ function drawGame() {
   if (score >= 25 * round) {
     round++;
     if (round > 4) {
-      alert("You Win! Final Score: " + score);
+      alert("Você Ganhou! Pontução final: " + score);
       return;
     }
     setupRound();
