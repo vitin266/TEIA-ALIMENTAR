@@ -1,3 +1,18 @@
+const images = {
+  player: new Image(),
+  insect: new Image(),
+  frog: new Image(),
+  snake: new Image(),
+  eagle: new Image(),
+};
+
+// Defina as fontes das imagens
+images.player.src = "images/player.png";
+images.insect.src = "images/insect.png";
+images.frog.src = "images/frog.png";
+images.snake.src = "images/snake.png";
+images.eagle.src = "images/eagle.png";
+
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 canvas.width = 800;
