@@ -5,7 +5,7 @@ canvas.height = 600;
 
 let round = 1;
 let score = 0;
-let player = { x: 400, y: 300, size: 30, speed: 5 };
+let player = { x: 400, y: 300, size: 30, speed: 8 };
 let preys = [];
 let predators = [];
 let preyType = "insect";
